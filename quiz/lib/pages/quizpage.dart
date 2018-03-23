@@ -22,6 +22,12 @@ class QuizPageState extends State<QuizPage>{
         children: <Widget>[
           new answerButton(true, (){ print("Correct!");})
           ,
+          new Material(
+            color: Colors.yellowAccent,
+            child: new Center(
+              child:new Text("Statement 1: Pizza!"),
+            ),
+          ),
           new answerButton(false, (){print("Incorrect!");})
             ],
       )],
