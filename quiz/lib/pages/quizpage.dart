@@ -24,7 +24,7 @@ class QuizPageState extends State<QuizPage>{
            //This is our main page\\
         children: <Widget>[
           new answerButton(true, (){ print("YessS!");}),
-          new quesText("Boobs?", 1),
+          new quesText("Pizza??", 1),
           new answerButton(false, (){print("NooO!");})
             ],
       ),
